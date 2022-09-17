@@ -16,8 +16,13 @@ using LeetCodeProblems;
 
 
 //Problem 3: chack palindrome
-Palindrome pl = new Palindrome();
-Console.WriteLine("Please enter a string:");
-string str =  Console.ReadLine();
-Console.WriteLine("Is the  input string palindrome?{0}",pl.CheckPalinDrome(str));
+//Palindrome pl = new Palindrome();
+//Console.WriteLine("Please enter a string:");
+//string str =  Console.ReadLine();
+//Console.WriteLine("Is the  input string palindrome?{0}",pl.CheckPalinDrome(str));
+
+//Problem 4: count each character
+CharCounts chCnt = new CharCounts("aaabbCC");
+chCnt.GetCounts();
+Console.ReadKey();
 
