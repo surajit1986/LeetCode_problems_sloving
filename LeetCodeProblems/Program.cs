@@ -22,7 +22,33 @@ using LeetCodeProblems;
 //Console.WriteLine("Is the  input string palindrome?{0}",pl.CheckPalinDrome(str));
 
 //Problem 4: count each character
-CharCounts chCnt = new CharCounts("aaabbCC");
-chCnt.GetCounts();
-Console.ReadKey();
+//CharCounts chCnt = new CharCounts("aaabbCC");
+//chCnt.GetCounts();
+//Console.ReadKey();
+
+
+//Problem5: Create a linklist and print it
+//CustomLinkList objMyList = new CustomLinkList();
+//objMyList.CreateCustomList();
+//objMyList.printCustomList();
+//Console.WriteLine("Insert Node at beginning:");
+//objMyList.InsertNodeAtBeginning();
+//objMyList.printCustomList();
+
+//Console.WriteLine("Insert Node at any position:");
+//objMyList.AddAtAyPosition();
+//objMyList.printCustomList();
+//Console.ReadKey();
+
+
+//Problems6: merge strings
+MergedStrings obj = new MergedStrings();
+//case1
+//Console.WriteLine(obj.MergeAlternately("abc","pqr"));
+//case2
+//Console.WriteLine(obj.MergeAlternately("ab", "pqrs"));
+//case3
+Console.WriteLine(obj.MergeAlternately("abcd", "pq"));
+Console.ReadLine();
+
 
